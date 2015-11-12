@@ -1,10 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.ServiceModel.Channels;
-using System.Threading.Tasks;
-using Windows.UI.Popups;
-using Windows.UI.ViewManagement;
 
 namespace T7_SSW_Lab4
 {
@@ -79,6 +75,7 @@ namespace T7_SSW_Lab4
             }
         }
 
+/*
         private string MatrixToString()
         {
             var s = "";
@@ -90,8 +87,9 @@ namespace T7_SSW_Lab4
             }
             return s;
         }
+*/
 
-        private async void MakeZeroMatrixRecursive(int offset)
+        private void MakeZeroMatrixRecursive(int offset)
         {
             if (offset == Matrix.Count)
                 return;
@@ -111,16 +109,16 @@ namespace T7_SSW_Lab4
                 imin = i;
             }
 
-            var s = MatrixToString();
+            //var s = MatrixToString();
 
             if (offset < imin)
                 SwapRows(offset, imin);
 
-            var s1 = MatrixToString();
+            //var s1 = MatrixToString();
 
-            var dialog = new MessageDialog(s + $"{offset,4} min row - {imin,4}\n" + s1);
-            //var dialog = new MessageDialog($"{offset,4} min row - {imin, 4}");
-            await dialog.ShowAsync();
+            //var dialog = new MessageDialog(s + $"{offset,4} min row - {imin,4}\n" + s1);
+            ////var dialog = new MessageDialog($"{offset,4} min row - {imin, 4}");
+            //await dialog.ShowAsync();
 
 
             var maxInitialised = false;
@@ -147,7 +145,7 @@ namespace T7_SSW_Lab4
                     jmax = j;
                 }
 
-            var s2 = MatrixToString();
+            //var s2 = MatrixToString();
 
             //var dialog1 = new MessageDialog($"{offset,4} max col - {jmax,4}");
             //dialog1.ShowAsync();
@@ -155,10 +153,10 @@ namespace T7_SSW_Lab4
             if (offset < jmax)
                 SwapCols(offset, jmax);
 
-            var s3 = MatrixToString();
-            var dialog1 = new MessageDialog(s2 + $"{offset,4} max col - {jmax,4}\n" + s3);
-            //var dialog = new MessageDialog($"{offset,4} min row - {imin, 4}");
-            await dialog1.ShowAsync();
+            //var s3 = MatrixToString();
+            //var dialog1 = new MessageDialog(s2 + $"{offset,4} max col - {jmax,4}\n" + s3);
+            ////var dialog = new MessageDialog($"{offset,4} min row - {imin, 4}");
+            //await dialog1.ShowAsync();
 
             //await Task.Delay(100000);
 
@@ -174,6 +172,23 @@ namespace T7_SSW_Lab4
 
             MakeZeroMatrixRecursive(0);
 
+        }
+
+        public bool CheckConflict()
+        {
+            for (var i = 0; i < Matrix.Count; i++)
+                if (Matrix[i][i] == 1)
+                {
+                    var zerosNumber = 0;
+                    for (var i1 = 0; i1 <=i; i1++)
+                        for (var j1 = i; j1 < Matrix.Count; j1++)
+                            if (Matrix[i1][j1] == 0)
+                                zerosNumber++;
+                    if (zerosNumber == (i + 1)*(Matrix.Count - i) - 1)
+                        return true;
+                }
+
+            return false;
         }
 
         //private bool CheckForConflicts()

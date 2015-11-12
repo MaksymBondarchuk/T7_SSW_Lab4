@@ -1,6 +1,6 @@
 ﻿using System;
+using Windows.UI.Popups;
 using Windows.UI.Xaml;
-using Windows.UI.Xaml.Controls;
 
 // The Blank Page item template is documented at http://go.microsoft.com/fwlink/?LinkId=402352&clcid=0x409
 
@@ -32,7 +32,7 @@ namespace T7_SSW_Lab4
             }
         }
 
-        private void ButtonTransform_Click(object sender, RoutedEventArgs e)
+        private async void ButtonTransform_Click(object sender, RoutedEventArgs e)
         {
             _schedule.TransformMatrix();
             TextBoxTransformed.Text = "";
@@ -42,6 +42,8 @@ namespace T7_SSW_Lab4
                     TextBoxTransformed.Text += $"{row[j],4}";
                 TextBoxTransformed.Text += "\n";
             }
+            var dialog = new MessageDialog(_schedule.CheckConflict().ToString());
+            await dialog.ShowAsync();
         }
     }
 }
