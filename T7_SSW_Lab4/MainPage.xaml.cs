@@ -1,4 +1,6 @@
 ﻿using System;
+using System.Collections.Generic;
+using Windows.Foundation;
 using Windows.UI.Popups;
 using Windows.UI.Xaml;
 
@@ -12,6 +14,7 @@ namespace T7_SSW_Lab4
     public sealed partial class MainPage
     {
         private readonly Schedule _schedule = new Schedule();
+        private const int TestsCount = 100;
 
         public MainPage()
         {
@@ -21,7 +24,7 @@ namespace T7_SSW_Lab4
         private void ButtonGenerate_Click(object sender, RoutedEventArgs e)
         {
             
-            _schedule.GenerateMarix(10, Convert.ToInt16(SliderConnectivity.Value));
+            _schedule.GenerateMarix(10, Convert.ToInt16(SliderSize.Value));
 
             TextBoxMatrix.Text = "";
             foreach (var row in _schedule.Matrix)
@@ -44,6 +47,21 @@ namespace T7_SSW_Lab4
             }
             var dialog = new MessageDialog(_schedule.CheckConflict().ToString());
             await dialog.ShowAsync();
+        }
+
+        private void ButtonBuild_Click(object sender, RoutedEventArgs e)
+        {
+            // Generating points
+            var points = new List<Point>();
+            for (var connectivity = 1; connectivity <= 100; connectivity += 5)
+            {
+                var possibility = 0;
+                for (var testNumber = 0; testNumber < TestsCount; testNumber++)
+                    if (_schedule.CheckConflict(Convert.ToInt16(SliderSize.Value), connectivity))
+                        possibility++;
+                possibility /= TestsCount;
+                points.Add(new Point(connectivity * ImageGraph.Width * .01, ImageGraph.Height - possibility * ImageGraph.Height));
+            }
         }
     }
 }

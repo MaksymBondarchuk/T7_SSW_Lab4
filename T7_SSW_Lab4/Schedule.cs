@@ -191,10 +191,12 @@ namespace T7_SSW_Lab4
             return false;
         }
 
-        //private bool CheckForConflicts()
-        //{
-        //    return false;
-        //}
+        public bool CheckConflict(int size, int connectivity)
+        {
+            GenerateMarix(size, connectivity);
+            TransformMatrix();
+            return CheckConflict();
+        }
     }
 }
 
