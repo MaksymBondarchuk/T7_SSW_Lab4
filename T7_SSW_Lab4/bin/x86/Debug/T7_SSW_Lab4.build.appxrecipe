@@ -21,11 +21,42 @@
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\ApplicationInsights.config">
       <PackagePath>ApplicationInsights.config</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\BadgeLogo.scale-150.png">
+      <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\Square150x150Logo.scale-100.png">
@@ -102,10 +133,6 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\Square44x44Logo.targetsize-48.png">
       <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\StoreLogo.scale-100.png">

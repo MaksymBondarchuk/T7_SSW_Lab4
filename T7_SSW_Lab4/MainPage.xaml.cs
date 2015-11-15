@@ -54,8 +54,6 @@ namespace T7_SSW_Lab4
             }
 
             // Draw graph
-
-
             var b = new SolidColorBrush(_colors[_colorIdx++ % _colors.Count]);
             for (var i = 0; i < points.Count - 1; i++)
             {
@@ -73,18 +71,6 @@ namespace T7_SSW_Lab4
             }
         }
 
-        /// <summary>
-        /// Creates a Color from alpha, _hue, saturation and brightness.
-        /// </summary>
-        /// <param name="alpha">The alpha channel value.</param>
-        /// <param name="hue">The _hue value.</param>
-        /// <param name="saturation">The saturation value.</param>
-        /// <param name="brightness">The brightness value.</param>
-        /// <returns>A Color with the given values.</returns>
-        private void FromAhsb(byte alpha, float hue, float saturation, float brightness)
-        {
-        }
-
         private void ButtonClear_Click(object sender, RoutedEventArgs e)
         {
             _colorIdx = 0;
@@ -93,8 +79,7 @@ namespace T7_SSW_Lab4
 
         private void CanvasGraph_SizeChanged(object sender, SizeChangedEventArgs e)
         {
-            _colorIdx = 0;
-            CanvasGraph.Children.Clear();
+            ButtonClear_Click(sender, null);
         }
     }
 }

@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>a8108d1c-87f9-4acc-8552-29b27e7dae85</PackageIdentityName>
     <IntermediateOutputPath>D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>D34FF45274DB25FF11A92C35CD3AEAAB7270845F4FD76655D557F9E4992904F4</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>097D8E834DBEDC288AFFFE8ACB9201E21D2588FACACC60B55D6F22C105C56DAF</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>a8108d1c-87f9-4acc-8552-29b27e7dae85_1.0.0.0_x86__g250zj9x2fg02</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>a8108d1c-87f9-4acc-8552-29b27e7dae85_g250zj9x2fg02!App</RegisteredUserModeAppID>
     <RegisteredPackageID>a8108d1c-87f9-4acc-8552-29b27e7dae85</RegisteredPackageID>
@@ -22,7 +22,7 @@
     <AppXManifest Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-15T12:35:10.388</Modified>
+      <Modified>2015-11-15T20:45:38.469</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -30,14 +30,54 @@
       <PackagePath>ApplicationInsights.config</PackagePath>
       <Modified>2015-11-10T05:11:34.236</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\BadgeLogo.scale-100.png">
+      <PackagePath>Assets\BadgeLogo.scale-100.png</PackagePath>
+      <Modified>2015-11-15T12:26:20.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\BadgeLogo.scale-125.png">
+      <PackagePath>Assets\BadgeLogo.scale-125.png</PackagePath>
+      <Modified>2015-11-15T12:26:20.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\BadgeLogo.scale-150.png">
+      <PackagePath>Assets\BadgeLogo.scale-150.png</PackagePath>
+      <Modified>2015-11-15T12:26:20.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\BadgeLogo.scale-200.png">
+      <PackagePath>Assets\BadgeLogo.scale-200.png</PackagePath>
+      <Modified>2015-11-15T12:26:20.155</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\BadgeLogo.scale-400.png">
+      <PackagePath>Assets\BadgeLogo.scale-400.png</PackagePath>
+      <Modified>2015-11-15T12:26:20.155</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\LockScreenLogo.scale-200.png">
       <PackagePath>Assets\LockScreenLogo.scale-200.png</PackagePath>
       <Modified>2015-08-26T23:38:34.000</Modified>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-15T12:32:49.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\SplashScreen.scale-125.png">
+      <PackagePath>Assets\SplashScreen.scale-125.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-15T12:32:49.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\SplashScreen.scale-150.png">
+      <PackagePath>Assets\SplashScreen.scale-150.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-15T12:32:49.991</Modified>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\SplashScreen.scale-200.png">
       <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-26T23:38:34.000</Modified>
+      <Modified>2015-11-15T12:32:49.991</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2015-11-15T12:32:49.991</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\Square150x150Logo.scale-100.png">
       <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
@@ -134,11 +174,6 @@
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
       <Modified>2015-11-15T12:26:20.155</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\StoreLogo.png">
-      <PackagePath>Assets\StoreLogo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-08-26T23:38:34.000</Modified>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -195,7 +230,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\entrypoint\T7_SSW_Lab4.exe">
       <PackagePath>entrypoint\T7_SSW_Lab4.exe</PackagePath>
-      <Modified>2015-11-15T12:35:08.021</Modified>
+      <Modified>2015-11-15T20:45:36.059</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -227,7 +262,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-11-15T12:35:08.892</Modified>
+      <Modified>2015-11-15T20:45:37.464</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
@@ -627,11 +662,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\T7_SSW_Lab4.exe">
       <PackagePath>T7_SSW_Lab4.exe</PackagePath>
-      <Modified>2015-11-15T12:35:10.375</Modified>
+      <Modified>2015-11-15T20:45:38.468</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\T7_SSW_Lab4.xr.xml">
       <PackagePath>T7_SSW_Lab4.xr.xml</PackagePath>
-      <Modified>2015-11-15T12:13:22.331</Modified>
+      <Modified>2015-11-15T20:44:47.155</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\WinMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>

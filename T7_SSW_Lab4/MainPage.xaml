@@ -9,7 +9,7 @@
     <Grid Background="White">
         <Button x:Name="Build" Content="Build" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top" Click="ButtonGenerate_Click" Width="80"/>
         <Canvas x:Name="CanvasGraph" Margin="10,52,10,10" SizeChanged="CanvasGraph_SizeChanged"/>
-        <Button x:Name="ButtonClear" Content="Clear" HorizontalAlignment="Left" Margin="95,10,0,0" VerticalAlignment="Top" Width="80" Click="ButtonClear_Click"/>
-        <Slider x:Name="SliderSize" Margin="180,3,10,0" VerticalAlignment="Top" Maximum="30" Minimum="10"/>
+        <Button x:Name="ButtonClear" Content="Clear" HorizontalAlignment="Left" Margin="250,10,0,0" VerticalAlignment="Top" Width="80" Click="ButtonClear_Click"/>
+        <Slider x:Name="SliderSize" Margin="95,3,0,0" VerticalAlignment="Top" Maximum="30" Minimum="10" HorizontalAlignment="Left" Width="150"/>
     </Grid>
 </Page>

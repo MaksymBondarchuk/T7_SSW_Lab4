@@ -23,11 +23,7 @@
   <Applications>
     <Application Id="App" Executable="T7_SSW_Lab4.exe" EntryPoint="T7_SSW_Lab4.App">
       <uap:VisualElements DisplayName="T7_SSW_Lab4" Square150x150Logo="Assets\Square150x150Logo.png" Square44x44Logo="Assets\Square44x44Logo.png" Description="T7_SSW_Lab4" BackgroundColor="transparent">
-        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\Square310x310Logo.png">
-          <uap:ShowNameOnTiles>
-            <uap:ShowOn Tile="square310x310Logo" />
-          </uap:ShowNameOnTiles>
-        </uap:DefaultTile>
+        <uap:DefaultTile Wide310x150Logo="Assets\Wide310x150Logo.png" Square310x310Logo="Assets\Square310x310Logo.png"></uap:DefaultTile>
         <uap:SplashScreen Image="Assets\SplashScreen.png" />
         <uap:InitialRotationPreference>
           <uap:Rotation Preference="portrait" />
@@ -41,16 +37,5 @@
   <Capabilities>
     <Capability Name="internetClient" />
   </Capabilities>
-  <build:Metadata>
-    <build:Item Name="TargetFrameworkMoniker" Value=".NETCore,Version=v5.0" />
-    <build:Item Name="VisualStudio" Version="14.0" />
-    <build:Item Name="VisualStudioEdition" Value="Microsoft Visual Studio Enterprise 2015" />
-    <build:Item Name="OperatingSystem" Version="10.0.10240.16384 (th1.150709-1700)" />
-    <build:Item Name="Microsoft.Build.AppxPackage.dll" Version="14.0.23315.0" />
-    <build:Item Name="ProjectGUID" Value="{7E5D5BCF-120C-4701-B70E-F5FEFCBF1E02}" />
-    <build:Item Name="OptimizingToolset" Value="None" />
-    <build:Item Name="TargetRuntime" Value="Managed" />
-    <build:Item Name="Microsoft.Windows.UI.Xaml.Build.Tasks.dll" Version="14.0.23309.0" />
-    <build:Item Name="MakePri.exe" Version="10.0.10240.16384 (th1.150709-1700)" />
-  </build:Metadata>
+
 </Package>

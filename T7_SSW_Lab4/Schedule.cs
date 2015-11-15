@@ -8,8 +8,11 @@ namespace T7_SSW_Lab4
     {
         private List<List<short>> _matrix;
         private readonly Random _rand = new Random();
-
-        // Generates random matrix with specified size and connectivity
+        /// <summary>
+        /// Generates random matrix with specified size and connectivity
+        /// </summary>
+        /// <param name="size">Size of the matrix</param>
+        /// <param name="connectivity">Connectivity of the matrix</param>
         private void GenerateMarix(int size, int connectivity)
         {
             _matrix = new List<List<short>>();
@@ -36,8 +39,12 @@ namespace T7_SSW_Lab4
             }
         }
 
-        // Removes specified row and column from matrix
-        // Addidtional for RemoveNeccesary
+        /// <summary>
+        /// Removes specified row and column from matrix
+        /// Addidtional for RemoveNeccesary
+        /// </summary>
+        /// <param name="row">Row index</param>
+        /// <param name="col">Column index</param>
         private void RemoveRowCol(int row, int col)
         {
             _matrix.RemoveAt(row);
@@ -45,7 +52,9 @@ namespace T7_SSW_Lab4
                 r.RemoveAt(col);
         }
 
-        // Removes nessesary assignments
+        /// <summary>
+        /// Removes nessesary assignments
+        /// </summary>
         private void RemoveNeccesary()
         {
             for (var i = 0; i < _matrix.Count; i++)
@@ -67,8 +76,12 @@ namespace T7_SSW_Lab4
                     }
         }
 
-        // Swaps two rows in matrix
-        // Additional for MakeZeroMatrixRecursive
+        /// <summary>
+        /// Swaps two rows in matrix
+        /// Additional for MakeZeroMatrixRecursive
+        /// </summary>
+        /// <param name="row1"></param>
+        /// <param name="row2"></param>
         private void SwapRows(int row1, int row2)
         {
             var buf = _matrix[row1];
@@ -76,8 +89,12 @@ namespace T7_SSW_Lab4
             _matrix[row2] = buf;
         }
 
-        // Swaps two columns in matrix
-        // Additional for MakeZeroMatrixRecursive
+        /// <summary>
+        /// Swaps two columns in matrix
+        /// Additional for MakeZeroMatrixRecursive
+        /// </summary>
+        /// <param name="col1">First column index</param>
+        /// <param name="col2">Second column index</param>
         private void SwapCols(int col1, int col2)
         {
             foreach (var t in _matrix)
@@ -88,7 +105,10 @@ namespace T7_SSW_Lab4
             }
         }
 
-        // Tries to make zero matrix in top right corner
+        /// <summary>
+        /// Tries to make zero matrix in top right corner
+        /// </summary>
+        /// <param name="offset">Offset in current matrix (0 at begin)</param>
         private void MakeZeroMatrixRecursive(int offset)
         {
             if (offset == _matrix.Count)
@@ -146,7 +166,10 @@ namespace T7_SSW_Lab4
             MakeZeroMatrixRecursive(offset + 1);
         }
 
-        // Checks matrix for conflict assignments
+        /// <summary>
+        /// Checks matrix for conflict assignments
+        /// </summary>
+        /// <returns>True if there are conflicts. False else</returns>
         private bool CheckConflict()
         {
             for (var i = 0; i < _matrix.Count; i++)
@@ -164,7 +187,12 @@ namespace T7_SSW_Lab4
             return false;
         }
 
-        // Generates and checks matrix for conflict assignments
+        /// <summary>
+        /// Generates and checks matrix for conflict assignments
+        /// </summary>
+        /// <param name="size">v</param>
+        /// <param name="connectivity">Connectivity of the matrix</param>
+        /// <returns>True if there are conflicts. False else</returns>
         public bool CheckConflict(int size, int connectivity)
         {
             GenerateMarix(size, connectivity);
