@@ -1,1 +1,1 @@
-D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\T7_SSW_Lab4.csproj;x86
+C:\Users\Max\Downloads\T7_SSW_Lab4\T7_SSW_Lab4\T7_SSW_Lab4.csproj;x86
