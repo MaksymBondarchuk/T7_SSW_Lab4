@@ -41,7 +41,7 @@ namespace T7_SSW_Lab4
 
         /// <summary>
         /// Removes specified row and column from matrix
-        /// Addidtional for RemoveNeccesary
+        /// Addidtional for RemoveNecessary
         /// </summary>
         /// <param name="row">Row index</param>
         /// <param name="col">Column index</param>
@@ -55,7 +55,7 @@ namespace T7_SSW_Lab4
         /// <summary>
         /// Removes nessesary assignments
         /// </summary>
-        private void RemoveNeccesary()
+        private void RemoveNecessary()
         {
             for (var i = 0; i < _matrix.Count; i++)
                 for (var j = 0; j < _matrix.Count; j++)
@@ -70,7 +70,7 @@ namespace T7_SSW_Lab4
                             RemoveRowCol(i, j);
 
                             // Do the same with lesser matrix
-                            RemoveNeccesary();
+                            RemoveNecessary();
                             return;
                         }
                     }
@@ -196,9 +196,23 @@ namespace T7_SSW_Lab4
         public bool CheckConflict(int size, int connectivity)
         {
             GenerateMarix(size, connectivity);
-            RemoveNeccesary();
+            RemoveNecessary();
             MakeZeroMatrixRecursive(0);
             return CheckConflict();
+        }
+
+        /// <summary>
+        /// Generates and checks matrix for necessary assignments
+        /// </summary>
+        /// <param name="size">v</param>
+        /// <param name="connectivity">Connectivity of the matrix</param>
+        /// <returns>True if there are necessary assignments. False else</returns>
+        public bool CheckNecessary(int size, int connectivity)
+        {
+            GenerateMarix(size, connectivity);
+            var sizeBeforeRemoving = _matrix.Count;
+            RemoveNecessary();
+            return sizeBeforeRemoving != _matrix.Count;
         }
     }
 }

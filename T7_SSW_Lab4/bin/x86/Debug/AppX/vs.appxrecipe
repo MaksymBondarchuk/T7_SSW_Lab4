@@ -22,7 +22,7 @@
     <AppXManifest Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-15T20:45:38.469</Modified>
+      <Modified>2015-11-19T23:09:19.066</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -230,7 +230,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\entrypoint\T7_SSW_Lab4.exe">
       <PackagePath>entrypoint\T7_SSW_Lab4.exe</PackagePath>
-      <Modified>2015-11-15T20:45:36.059</Modified>
+      <Modified>2015-11-19T23:09:07.280</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -262,7 +262,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-11-15T20:45:37.464</Modified>
+      <Modified>2015-11-19T23:09:16.229</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\System.AppContext.dll">
       <PackagePath>System.AppContext.dll</PackagePath>
@@ -662,11 +662,11 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\T7_SSW_Lab4.exe">
       <PackagePath>T7_SSW_Lab4.exe</PackagePath>
-      <Modified>2015-11-15T20:45:38.468</Modified>
+      <Modified>2015-11-19T23:09:19.061</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\T7_SSW_Lab4.xr.xml">
       <PackagePath>T7_SSW_Lab4.xr.xml</PackagePath>
-      <Modified>2015-11-15T20:44:47.155</Modified>
+      <Modified>2015-11-19T23:09:06.045</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\WinMetadata\Windows.winmd">
       <PackagePath>WinMetadata\Windows.winmd</PackagePath>

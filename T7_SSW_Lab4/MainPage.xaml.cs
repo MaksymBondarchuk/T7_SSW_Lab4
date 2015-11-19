@@ -43,11 +43,12 @@ namespace T7_SSW_Lab4
         {
             // Generate points for graph
             var points = new List<Point>();
-            for (var connectivity = 1; connectivity <= 100; connectivity += 5)
+            for (var connectivity = 0; connectivity <= 100; connectivity += 1)
             {
                 var possibility = .0;
                 for (var testNumber = 0; testNumber < TestsCount; testNumber++)
-                    if (_schedule.CheckConflict(Convert.ToInt16(SliderSize.Value), connectivity))
+                    if (CheckBoxType.IsChecked != null && (!CheckBoxType.IsChecked.Value && _schedule.CheckConflict(Convert.ToInt16(SliderSize.Value), connectivity) ||
+                                                           CheckBoxType.IsChecked.Value && _schedule.CheckNecessary(Convert.ToInt16(SliderSize.Value), connectivity)))
                         possibility++;
                 possibility /= TestsCount;
                 points.Add(new Point((int)(connectivity * CanvasGraph.RenderSize.Width * .01), (int)(CanvasGraph.RenderSize.Height - possibility * CanvasGraph.RenderSize.Height)));
