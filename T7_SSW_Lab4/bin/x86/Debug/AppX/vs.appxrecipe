@@ -10,7 +10,7 @@
     <PackageArchitecture>x86</PackageArchitecture>
     <PackageIdentityName>a8108d1c-87f9-4acc-8552-29b27e7dae85</PackageIdentityName>
     <IntermediateOutputPath>D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\obj\x86\Debug\</IntermediateOutputPath>
-    <RegisteredManifestChecksum>097D8E834DBEDC288AFFFE8ACB9201E21D2588FACACC60B55D6F22C105C56DAF</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>18BF06DDEC83A3A7210B8F074BBA54F4B9ADF2E3BF56F39F3977B18AAAB77D50</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>a8108d1c-87f9-4acc-8552-29b27e7dae85_1.0.0.0_x86__g250zj9x2fg02</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>a8108d1c-87f9-4acc-8552-29b27e7dae85_g250zj9x2fg02!App</RegisteredUserModeAppID>
     <RegisteredPackageID>a8108d1c-87f9-4acc-8552-29b27e7dae85</RegisteredPackageID>
@@ -22,7 +22,7 @@
     <AppXManifest Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-11-19T23:09:19.066</Modified>
+      <Modified>2015-11-20T22:46:25.625</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -230,7 +230,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\entrypoint\T7_SSW_Lab4.exe">
       <PackagePath>entrypoint\T7_SSW_Lab4.exe</PackagePath>
-      <Modified>2015-11-19T23:09:07.280</Modified>
+      <Modified>2015-11-20T22:46:20.258</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\Microsoft.ApplicationInsights.dll">
       <PackagePath>Microsoft.ApplicationInsights.dll</PackagePath>
@@ -662,7 +662,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\T7_SSW_Lab4.exe">
       <PackagePath>T7_SSW_Lab4.exe</PackagePath>
-      <Modified>2015-11-19T23:09:19.061</Modified>
+      <Modified>2015-11-20T22:46:25.623</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="D:\OneDrive\University\7 term\System SW\Labs\Lab4\T7_SSW_Lab4\T7_SSW_Lab4\bin\x86\Debug\Core\T7_SSW_Lab4.xr.xml">
       <PackagePath>T7_SSW_Lab4.xr.xml</PackagePath>
