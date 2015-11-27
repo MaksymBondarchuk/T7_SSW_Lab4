@@ -63,10 +63,26 @@ namespace T7_SSW_Lab4
                     if (_matrix[i][j] == 1)
                     {
                         var countZerosCol = _matrix.Count(t => t[j] == 0);
-                        if (countZerosCol != _matrix.Count - 1) continue;
+
+                        //for (var h = 0; h < _matrix.Count; h++)
+                        //    if (_matrix[h][j] == 0)
+                        //        countZerosCol++;
+
+                        //var countZerosCol = _matrix.Count(t => t[j] == 0);
+                        if (countZerosCol == _matrix.Count - 1)
                         {
-                            var countZerosRow = _matrix.Where((t, j1) => _matrix[i][j1] == 0).Count();
-                            if (countZerosRow != _matrix.Count - 1) continue;
+                            RemoveRowCol(i, j);
+
+                            // Do the same with lesser matrix
+                            RemoveNecessary();
+                            return;
+                        }
+
+                        //var countZerosRow = _matrix.Where((t, j1) => _matrix[i][j1] == 0).Count();
+                        var countZerosRow = _matrix.Where((t, h) => _matrix[i][h] == 0).Count();
+                        // ReSharper disable once InvertIf
+                        if (countZerosRow == _matrix.Count - 1)
+                        {
                             RemoveRowCol(i, j);
 
                             // Do the same with lesser matrix
